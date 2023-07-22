@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
     <title>Calculator</title>
 </head>
 <body>
@@ -12,31 +13,31 @@
         <input type="text" class="out">
         <div class="calculator-container">
             <div class="calculator-content">
-                <button>AC</button>
+                <button class="clear">AC</button>
                 <button class="number">7</button>
                 <button class="number">4</button>
                 <button class="number">1</button>
                 <button class="number">0</button>
             </div>
             <div class="calculator-content">
-                <button>CE</button>
+                <button class="delete">CE</button>
                 <button class="number">8</button>
                 <button class="number">5</button>
                 <button class="number">2</button>
                 <button class="number">.</button>
             </div>
             <div class="calculator-content">
-                <button>%</button>
+                <button class="operator">%</button>
                 <button class="number">9</button>
                 <button class="number">6</button>
                 <button class="number">3</button>
-                <button>=</button>
+                <button class="operator">=</button>
             </div>
             <div class="calculator-content">
-                <button>÷</button>
-                <button>x</button>
-                <button>-</button>
-                <button class="plus">+</button>
+                <button class="operator">÷</button>
+                <button class="operator">x</button>
+                <button class="operator">-</button>
+                <button class="operator" id="plus">+</button>
             </div>
         </div>
     </div>

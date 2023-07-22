@@ -31,6 +31,9 @@ h1 {
     margin-bottom: 7px;
     padding : 10px;
     border-radius : 15px;
+    font-size: 30px;
+    text-align: right;
+    color: white;
 }
 
 .calculator-container {
@@ -52,9 +55,11 @@ h1 {
     width: 70px;
     margin : 15px;
     padding : 20px;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
-.calculator-content .plus {
+.calculator-content #plus {
     height: 148px;
     padding-top : 28px;
 }
